@@ -6,8 +6,7 @@ edition = "2021"
 description = "Structure rendering definitions for Screeps room visuals, ported from the community RoomVisual.js"
 
 [features]
-default = ["screeps-game-api"]
-shim = []
+default = []
 
 [dependencies]
-screeps-game-api = { version = "0.23", optional = true }
+screeps-game-api = "0.23"
