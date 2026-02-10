@@ -1,0 +1,13 @@
+[package]
+name = "screeps-visual"
+version = "0.1.0"
+authors = ["William Archbell <william@archbell.com>"]
+edition = "2021"
+description = "Structure rendering definitions for Screeps room visuals, ported from the community RoomVisual.js"
+
+[features]
+default = ["screeps-game-api"]
+shim = []
+
+[dependencies]
+screeps-game-api = { version = "0.23", optional = true }
