@@ -209,12 +209,7 @@ const TERMINAL: &[VisualPrimitive] = &[
 // Lab
 // ---------------------------------------------------------------------------
 
-static LAB_BOX: [(f32, f32); 4] = [
-    (-0.45, 0.3),
-    (-0.45, 0.55),
-    (0.45, 0.55),
-    (0.45, 0.3),
-];
+static LAB_BOX: [(f32, f32); 4] = [(-0.45, 0.3), (-0.45, 0.55), (0.45, 0.55), (0.45, 0.3)];
 
 const LAB: &[VisualPrimitive] = &[
     VisualPrimitive::Circle {
@@ -406,12 +401,7 @@ static NUKER_OUTER: [(f32, f32); 6] = [
     (0.0, -1.0),
 ];
 
-static NUKER_INNER: [(f32, f32); 4] = [
-    (0.0, -0.80),
-    (-0.40, 0.2),
-    (0.40, 0.2),
-    (0.0, -0.80),
-];
+static NUKER_INNER: [(f32, f32); 4] = [(0.0, -0.80), (-0.40, 0.2), (0.40, 0.2), (0.0, -0.80)];
 
 const NUKER: &[VisualPrimitive] = &[
     VisualPrimitive::Poly {
